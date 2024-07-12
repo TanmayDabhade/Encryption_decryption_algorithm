@@ -1,4 +1,3 @@
-#CSE231 Project 4
 #Algorithm
 #1. Printing the Banner with Intro Message
 #2. Ask the user for a rotation(integer), if it is not an integer, print an error message and reprompt for a new rotation

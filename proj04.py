@@ -86,7 +86,7 @@ def get_smallest_co_prime(M):
             return num
     return False
 
-        # delete and replace with your code
+
 
 
 def caesar_cipher_encryption(ch, N, alphabet):
@@ -97,7 +97,7 @@ def caesar_cipher_encryption(ch, N, alphabet):
     B = alphabet.find(ch)
     C = (B + N) % M
     return alphabet[C]
-     # delete and replace with your code
+
 
 
 def caesar_cipher_decryption(ch, N, alphabet):
@@ -210,17 +210,7 @@ def main():
                 else:
                     print("\nCommand not recognized.")
                     command = input("\n\nInput a command (e)ncrypt, (d)ecrypt, (q)uit: ")
-     # delete and replace with your code
-
-
-
-
-# These two lines allow this program to be imported into other codes
-# such as our function tests code allowing other functions to be run
-# and tested without 'main' running.  However, when this program is
-# run alone, 'main' will execute.
-# DO NOT CHANGE THESE 2 lines or Do NOT add code to them. Everything
-# you add should be in the 'main' function above.
+     
 if __name__ == '__main__':
     main()
 
